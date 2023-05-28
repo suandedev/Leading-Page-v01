@@ -25,41 +25,41 @@ export default function App() {
           <figure className="relative z-[3] shadow-lg rounded-xl py-4 px-8 flex flex-col items-center bg-blue-50">
             <p>Our Creative team</p>
             <ul className="flex mt-2">
-              <li className=""><img src="public\Rectangle 11.png" alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
-              <li className="ml-[-15px]"><img src="public\Rectangle 15.png" alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
-              <li className="ml-[-15px]"><img src="public\Rectangle 16.png" alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
-              <li className="ml-[-15px]"><img src="public\Rectangle 17.png" alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
-              <li className="ml-[-15px]"><img src="public\Rectangle 18.png" alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
+              <li className=""><img src={"/static/images/Rectangle 11.png"} alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
+              <li className="ml-[-15px]"><img src={"/static/images/Rectangle 15.png"} alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
+              <li className="ml-[-15px]"><img src={"/static/images/Rectangle 16.png"} alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
+              <li className="ml-[-15px]"><img src={"/static/images/Rectangle 17.png"} alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
+              <li className="ml-[-15px]"><img src={"/static/images/Rectangle 18.png"} alt="team1" className="block rounded-full w-10 shahow-sm" /></li>
               <li className="bg-blue-600 rounded-full p-2 text-sm text-center ml-[-15px] text-blue-50">8+</li>
             </ul>
           </figure>
         </div>
-        <img src="public\On the way to the goal.png" alt="img goal" className="absolute z-[2] top-36 h-[45rem] right-[11rem]" />
-        <img src="public\Group 5.png" alt="grup5" className="absolute z-[1] right-3 top-[7rem] w-[34rem]"/>
+        <img src={"/static/images/On the way to the goal.png"} alt="img goal" className="absolute z-[2] top-36 h-[45rem] right-[11rem]" />
+        <img src={"/static/images/Group 5.png"} alt="grup5" className="absolute z-[1] right-3 top-[7rem] w-[34rem]"/>
       </div>
       <div className=" mx-36 mt-[5rem]">
         <h1 className="text-3xl font-bold">See how much our client love.</h1>
-        <img src="public\Screenshot (128) 1.png" alt="badge" className="block mx-auto w-[40rem] mt-[2.5rem]" />
+        <img src={"/static/images/Screenshot (128) 1.png"} alt="badge" className="block mx-auto w-[40rem] mt-[2.5rem]" />
         <figure className="flex justify-start space-x-4 w-full mt-[4rem]">
-          <img src="public\Answer.png" alt="answer" className="w-[45%]" />
+          <img src={"/static/images/Answer.png"} alt="answer" className="w-[45%]" />
           <section className="space-y-4">
             <h2 className="font-bold leading-10 text-2xl w-[50%]  text-gray-600">Take Your Online marketing to the next level.</h2>
             <figure className="flex items-center space-x-3">
-              <img src="public\Planner.png" alt="planer" className="bg-green-600 p-2 rounded-md w-[40px] block"/>
+              <img src={"/static/images/Planner.png"} alt="planer" className="bg-green-600 p-2 rounded-md w-[40px] block"/>
               <div className="w-[45%]">
                 <h3 className="text-gray-600 font-semibold">Direct Scheduling</h3>
                 <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
             </figure>
             <figure className="flex items-center space-x-3">
-              <img src="public\Notification.png" alt="Notification" className="bg-red-600 p-2 rounded-md w-[40px] block"/>
+              <img src={"/static/images/Notification.png"} alt="Notification" className="bg-red-600 p-2 rounded-md w-[40px] block"/>
               <div className="w-[45%]">
                 <h3 className="text-gray-600 font-semibold">Reminders</h3>
                 <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
             </figure>
             <figure className="flex items-center space-x-3">
-              <img src="public\Shopping Bag.png" alt="shoping" className="bg-purple-600 p-2 rounded-md w-[40px] block"/>
+              <img src={"/static/images/Shopping Bag.png"} alt="shoping" className="bg-purple-600 p-2 rounded-md w-[40px] block"/>
               <div className="w-[45%]">
                 <h3 className="text-gray-600 font-semibold">Shop Grid</h3>
                 <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -73,7 +73,7 @@ export default function App() {
         <p className="w-[360px] text-xs text-gray-500 text-center mx-auto mt-[0.5rem]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <div className="flex py-[3rem] justify-evenly items-center ">
           <figure className="shadow-2xl rounded-lg p-10 w-[30%]">
-            <img src="public\2012.png" alt="2012" className="bg-green-500 p-2 rounded-lg w-[65px] mb-8"/>
+            <img src={"/static/images/2012.png"} alt="2012" className="bg-green-500 p-2 rounded-lg w-[65px] mb-8"/>
             <div className="space-y-1">
               <h1 className="font-bold text-lg text-gray-700">Scheduling</h1>
               <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
@@ -81,7 +81,7 @@ export default function App() {
             <a href="#" className="mt-4 inline-block text-blue-700 text-xs font-bold">Read more <img src="public\Arrow 2.png" alt="arrow r" className="inline-block w-[13px] ml-2" /></a>
           </figure>
           <figure className="shadow-2xl rounded-lg p-10 w-[30%]">
-            <img src="public\Bitcoin Cryptocurrency.png" alt="2012" className="bg-purple-500 p-2 rounded-lg w-[65px] mb-8"/>
+            <img src={"/static/images/Bitcoin Cryptocurrency.png"} alt="2012" className="bg-purple-500 p-2 rounded-lg w-[65px] mb-8"/>
             <div className="space-y-1">
               <h1 className="font-bold text-lg text-gray-700">Increase conversion</h1>
               <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
@@ -89,7 +89,7 @@ export default function App() {
             <a href="#" className="mt-4 inline-block text-blue-700 text-xs font-bold">Read more <img src="public\Arrow 2.png" alt="arrow r" className="inline-block w-[13px] ml-2" /></a>
           </figure>
           <figure className="shadow-2xl rounded-lg p-10 w-[30%]">
-            <img src="public\Pie Chart.png" alt="2012" className="bg-red-500 p-2 rounded-lg w-[65px] mb-8"/>
+            <img src={"/static/images/Pie Chart.png"} alt="2012" className="bg-red-500 p-2 rounded-lg w-[65px] mb-8"/>
             <div className="space-y-1">
               <h1 className="font-bold text-lg text-gray-700">Increase analytics</h1>
               <p className="text-xs text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
@@ -113,7 +113,7 @@ export default function App() {
             </li>
           </ul>
         </div>
-        <img src="public\Recruiter found an employee.png" alt="recruter" className="" />
+        <img src={"/static/images/Recruiter found an employee.png"} alt="recruter" className="" />
       </div>
 
       <div className="mx-36 py-[3rem] space-y-4 ">
@@ -122,7 +122,7 @@ export default function App() {
         <div className="flex justify-center items-center space-x-4 pt-5">
           <section className="flex flex-col justify-evenly pt-10 bg-gray-50 rounded-xl shadow-xl p-8 w-[45%]">
             <figure className="flex space-x-3">
-              <img src="public\Ellipse 6.png" alt="eclipe 6" />
+              <img src={"/static/images/Ellipse 6.png"} alt="eclipe 6" />
               <div>
                 <h3 className="text-lg font-semibold">Jack Williamson</h3>
                 <p className="text-xs text-gray-500">One Year With Us</p>
@@ -132,7 +132,7 @@ export default function App() {
           </section>
           <section className="flex flex-col justify-evenly pt-10 bg-gray-50 rounded-xl shadow-xl border-blue-700 border p-8 w-[45%]">
             <figure className="flex space-x-3">
-              <img src="public\Ellipse 6.png" alt="eclipe 6" />
+              <img src={"/static/images/Ellipse 6.png"} alt="eclipe 6" />
               <div>
                 <h3 className="text-lg font-semibold">Jack Williamson</h3>
                 <p className="text-xs text-gray-500">One Year With Us</p>
@@ -142,7 +142,7 @@ export default function App() {
           </section>
           <section className="flex flex-col justify-evenly pt-10 bg-gray-50 rounded-xl shadow-xl p-8 w-[45%]">
             <figure className="flex space-x-3">
-              <img src="public\Ellipse 6.png" alt="eclipe 6" />
+              <img src={"/static/images/Ellipse 6.png"} alt="eclipe 6" />
               <div>
                 <h3 className="text-lg font-semibold">Jack Williamson</h3>
                 <p className="text-xs text-gray-500">One Year With Us</p>
@@ -157,42 +157,42 @@ export default function App() {
         <p className="text-xs text-gray-500 text-center">There are many variations of passages of lorem lpsum available, but the majority have suffered alteraction</p>
         <div className="flex space-x-4 justify-evenly items-center">
           <section className="border border-blue-700 rounded-xl p-8 bg-gray-50 w-[40%]">
-            <img src="public\unsplash_8YG31Xn4dSw.png" alt="UNSP1" className="mx-auto"/>
+            <img src={"/static/images/unsplash_8YG31Xn4dSw.png"} alt="UNSP1" className="mx-auto"/>
             <div className="flex justify-between pt-3">
               <figure className="flex items-center space-x-2">
-                <img src="public\Person.png" alt="person" className="w-[30px] block rounded-full " />
+                <img src={"/static/images/Person.png"} alt="person" className="w-[30px] block rounded-full " />
                 <p className="text-xs">Jack Wilson</p>
               </figure>
               <figure className="flex items-center space-x-2 ">
-                <img src="public\2013.png" alt="person" className="w-[30px] block rounded-full" />
+                <img src={"/static/images/2013.png"} alt="person" className="w-[30px] block rounded-full" />
                 <p className="text-xs">06 March 2022</p>
               </figure>
             </div>
             <p className="leading-9 font-bold text-lg mt-4">Discover cennect with great local business in your</p>
           </section>
           <section className="border border-blue-700 rounded-xl p-8 bg-gray-50 w-[40%]">
-            <img src="public\unsplash_diNfwACx8bk.png" alt="UNSP1" className="mx-auto"/>
+            <img src={"/static/images/unsplash_diNfwACx8bk.png"} alt="UNSP1" className="mx-auto"/>
             <div className="flex justify-between pt-3">
               <figure className="flex items-center space-x-2">
-                <img src="public\Person.png" alt="person" className="w-[30px] block rounded-full " />
+                <img src={"/static/images/Person.png"} alt="person" className="w-[30px] block rounded-full " />
                 <p className="text-xs">Jack Wilson</p>
               </figure>
               <figure className="flex items-center space-x-2 ">
-                <img src="public\2013.png" alt="person" className="w-[30px] block rounded-full" />
+                <img src={"/static/images/2013.png"} alt="person" className="w-[30px] block rounded-full" />
                 <p className="text-xs">06 March 2022</p>
               </figure>
             </div>
             <p className="leading-9 font-bold text-lg mt-4">Discover cennect with great local business in your</p>
           </section>
           <section className="border border-blue-700 rounded-xl p-8 bg-gray-50 w-[40%]">
-            <img src="public\unsplash_2FPjlAyMQTA.png" alt="UNSP1" className="mx-auto"/>
+            <img src={"/static/images/unsplash_2FPjlAyMQTA.png"} alt="UNSP1" className="mx-auto"/>
             <div className="flex justify-between pt-3">
               <figure className="flex items-center space-x-2">
-                <img src="public\Person.png" alt="person" className="w-[30px] block rounded-full " />
+                <img src={"/static/images/Person.png"} alt="person" className="w-[30px] block rounded-full " />
                 <p className="text-xs">Jack Wilson</p>
               </figure>
               <figure className="flex items-center space-x-2 ">
-                <img src="public\2013.png" alt="person" className="w-[30px] block rounded-full" />
+                <img src={"/static/images/2013.png"} alt="person" className="w-[30px] block rounded-full" />
                 <p className="text-xs">06 March 2022</p>
               </figure>
             </div>
@@ -214,9 +214,9 @@ export default function App() {
           <h1 className="text-blue-50 font-bold text-2xl">Agency</h1>
           <p className="text-blue-50 pt-4 text-xs">There are many variations of passages of lorem lpsum available, but the majority have suffered alteraction</p>
           <ul className="flex space-x-2 pt-2">
-            <li><img src="public\Group 37.png" alt="in" className="w-[50px] block"/></li>
-            <li><img src="public\Group 38.png" alt="fb" className="w-[50px] block"/></li>
-            <li><img src="public\Group 39.png" alt="tw" className="w-[50px] block"/></li>
+            <li><img src={"/static/images/Group 37.png"} alt="in" className="w-[50px] block"/></li>
+            <li><img src={"/static/images/Group 38.png"} alt="fb" className="w-[50px] block"/></li>
+            <li><img src={"/static/images/Group 39.png"} alt="tw" className="w-[50px] block"/></li>
           </ul>
         </section>
         <section>
