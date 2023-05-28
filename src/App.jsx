@@ -19,7 +19,7 @@ export default function App() {
         <div className="mx-48 my-10 flex space-x-10 items-center">
           <button className="bg-blue-600 px-10 py-2 text-blue-50 rounded-lg inline-block w-fit ">Get Started</button>
           <figure className="flex space-x-4 items-center">
-            <img src="public\Polygon 1.png" alt="polygon 1" className="bg-blue-600 rounded-full p-2 block"/>
+            <img src={"/static/images/Polygon 1.png"} alt="polygon 1" className="bg-blue-600 rounded-full p-2 block"/>
             <p className="font-semibold">Watch Our Video</p>
           </figure>
           <figure className="relative z-[3] shadow-lg rounded-xl py-4 px-8 flex flex-col items-center bg-blue-50">
